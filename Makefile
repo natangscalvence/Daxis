@@ -1,4 +1,4 @@
-# Exemplo simplificado de como o Makefile pode parecer
+# A simple makefile example, we will change this in the future.
 
 CC = gcc
 CFLAGS = -Wall -Wextra -std=c99
@@ -13,4 +13,3 @@ all: $(OUT)
 $(OUT): $(OBJS)
 	$(CC) $(OBJS) -o $@ $(LDFLAGS)
 
-# ... (Regras de compilação e limpeza)
