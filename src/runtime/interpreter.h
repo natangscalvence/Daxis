@@ -14,6 +14,6 @@ DaxisValue dx_interpret_node(ASTNode* node, DaxisScope* scope);
 /**
  * Init the execution of the program from AST_PROGRAM node
  */
-int dx_interpret_progream(ASTNode* program_ast);
+int dx_interpret_program(ASTNode* program_ast);
 
 #endif // DAXIS_INTERPRETER_H
