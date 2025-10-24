@@ -19,7 +19,7 @@ typedef struct Symbol {
 
 typedef struct DaxisScope {
 	Symbol* symbols;
-	struct DaxisScope;
+	struct DaxisScope* parent;
 } DaxisScope;
 
 /**
